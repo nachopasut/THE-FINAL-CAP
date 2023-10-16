@@ -32,14 +32,14 @@
     "nombre": "Violin",
     "precio": 50000,
     "categoria": "Instrumentos",
-    "imagen": "Violin.webp"
+    "imagen": "violin.webp"
   },
   {
     "id": 6,
     "nombre": "Bajo paul",
     "precio": 15500,
     "categoria": "Instrumentos",
-    "imagen": "Bajo paul.webp"
+    "imagen": "bajo paul.webp"
   },
   {
     "id": 7,
