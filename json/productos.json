@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nombre": "Blur",
+    "precio": 2500,
+    "categoria": "Discos",
+    "imagen": "blur.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "The Smiths",
+    "precio": 6200,
+    "categoria": "Discos",
+    "imagen": "cd the smiths.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "LA LA LA Fito Paez",
+    "precio": 1600,
+    "categoria": "Discos",
+    "imagen": "la la la spinneta.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Pixies",
+    "precio": 1800,
+    "categoria": "Discos",
+    "imagen": "PIXIES.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Violin",
+    "precio": 50000,
+    "categoria": "Instrumentos",
+    "imagen": "Violin.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Bajo paul",
+    "precio": 15500,
+    "categoria": "Instrumentos",
+    "imagen": "Bajo paul.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Guitarra acustica",
+    "precio": 56000,
+    "categoria": "Instrumentos",
+    "imagen": "guitarra acustica.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Guitarra les paul",
+    "precio": 167500,
+    "categoria": "Instrumentos",
+    "imagen": "guitarra_lespaul.webp"
+  },
+  {
+    "id": 9 ,
+    "nombre": "Walkman Sony",
+    "precio": 8000,
+    "categoria": "Equipos de Musica",
+    "imagen": "descarga.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "MP 3 Panasonic",
+    "precio": 10000,
+    "categoria": "Equipos de Musica",
+    "imagen": "mp3.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Toca Vinillo",
+    "precio": 150000,
+    "categoria": "Equipos de Musica",
+    "imagen": "reproductor_vinillo.webp"
+  },
+  {
+    "id": 9,
+    "nombre": "Mp 4 Sony",
+    "precio": 19000,
+    "categoria": "Equipos de Musica",
+    "imagen": "sony.jpg"
+  }
+]

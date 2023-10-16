@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="json/css.css" />
+  </head>
+  <body>
+    <header> 
+      <div class="background">
+              <div class="texto-superpuesto">
+          <h1>Bienvenidos a Music-Fantasy
+        
+              </div>
+      </div>
+  </div>
+</header>
+  
+    <!-- Productos -->
+    <main>
+  <div>
+    <article>
+      <h2 class="TituloProduc">Busca tu producto preferido Aqui</h2>
+    </article>
+  </div>
+ <input id="inputBuscar" type="text" placeholder="Buscar productos..." />
+      <ul>
+        <li class="boton btnCategoria seleccionado" data-categoria="Todos">Todos</li>
+        <li class="boton btnCategoria" data-categoria="Discos">Discos</li>
+        <li class="boton btnCategoria" data-categoria="Instrumentos">Instrumentos</li>
+        <li class="boton btnCategoria" data-categoria="Equipos de Musica">Equipos de Musica</li>
+
+      </ul>
+      <div>
+        
+      </div>
+      <div id="productos">
+        <!-- Acá van a ir todos los productos cargados en la base de datos (catálogo) -->
+      </div>
+    </main>
+
+    <section class="ocultar">
+      <h1>
+        <span id="cantidadProductos">0</span>
+      </h1>
+      <div id="scroll">
+        <div id="carrito">
+          <!-- Acá van a estar todos los productos que tengamos en el carrito -->
+        </div>
+      </div>
+      <h2>Total: $<span id="totalCarrito">0</span></h2>
+      <a href="#" id="botonComprar" class="boton" style="width: 100%; text-align: center"
+        >Comprar</a
+      >
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/json/app.js"></script>
+  </body>
+</html>

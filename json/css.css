@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* HEADER */
+  header{
+    height: 85vh;
+    background-image: url(../img/500days.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Inter', sans-serif;
+}
+.texto-superpuesto {
+  position: absolute; /* Establece el texto como posición absoluta */
+  top: 40%; /* Alinea el texto verticalmente en el centro */
+  left: 50%; /* Alinea el texto horizontalmente en el centro */
+  transform: translate(-50%, -50%); /* Centra el texto correctamente */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espacio interior alrededor del texto */
+  text-align: center; /* Alinea el texto en el centro */
+  
+}
+.background {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* MAIN */
+
+input {
+  width: 900px;
+  padding:10px;
+ font-size: 25px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 100;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-left: 200px;
+}
+
+.TituloProduc{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+font-size: 40px;
+}
+
+
+
+  section {
+    position: fixed;
+    box-shadow: -6px -2px 25px -13px rgba(0, 0, 0, 0.15);
+    width: 340px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    transition: all 0.2s;
+    background-color: white;
+  }
+  section h1 {
+    position: absolute;
+    top: 20px;
+    right: 360px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+    background: url("/img/carrito.png") no-repeat #244ced;
+    background-size: 60%;
+    background-position: 9px center;
+  }
+  section h1 span {
+    display: block;
+    background-color: #d15280;
+    border-radius: 150px;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: -10px 0 0 30px;
+  }
+  section h3 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .btnAgregar,
+  .btnQuitar,
+  .boton {
+    
+    color: white;
+    background-color: #244ced;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #244ced;
+    transition: all 0.2s;
+    cursor: pointer;
+    
+  }
+  .btnAgregar:hover,
+  .btnQuitar:hover,
+  .boton:hover {
+    border: 1px solid white;
+    scale: 1.05;
+  }
+  .boton.seleccionado {
+    border: 4px solid white;
+    background-color: #d15280;
+  }
+  .productoCarrito {
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+  .productoCarrito h2 {
+    margin-bottom: 8px;
+  }
+  .ocultar {
+    right: -340px;
+    transition: all 0.2s;
+  }
+ 
+ 
+ 
+ 
+ 
+  .producto {
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9; 
+    text-align: center;
+    transition: transform 0.1s; 
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .producto:hover {
+    transform: scale(1.02);  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .producto .precio {
+    background-color: rgba(238, 0, 255, 0.472);
+    color: white;
+  }
+  
+  .producto .btnAgregar,
+  .producto .boton {
+    background-color: #244ced;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #244ced;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .producto .btnAgregar:hover,
+  .producto .boton:hover {
+    border: 1px solid white;
+    transform: scale(1.05); 
+  }
+  #productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px; 
+    height: auto;
+  }
+  
+  .producto {
+   
+    margin-bottom: 100px; 
+  }
+  .producto .imagen {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    margin: 20px 0;
+  }
+  
+  .producto .imagen img {
+    max-height: 600px;
+    max-width: 200px 
+  }
+  #scroll {
+    max-height: 96%;
+    overflow-y: auto;
+    padding-left: 5px;
+  }
